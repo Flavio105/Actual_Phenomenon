@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://llm-invoice-api.onrender.com"
 
 
 def analyze_invoice(policy_file_path, invoice_zip_path, employee_name):
