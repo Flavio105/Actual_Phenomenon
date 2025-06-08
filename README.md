@@ -114,7 +114,7 @@ Query stored invoice analysis results.
 
 ### Each invoice + LLM summary is saved with metadata (employee name, filename, date).
 
-### Stored as vector embeddings with FAISS for fast retrieval.
+### Stored as vector embeddings with ChromaDB for fast retrieval.
 
 ## ✍️ Prompt Design
 
